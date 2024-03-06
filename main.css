@@ -1,0 +1,117 @@
+body {
+    margin : 0;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+img {
+    display: block;
+    width: 100%;
+
+}
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.pseudo-wrapper {
+    min-width: 500px;
+    margin: auto;
+    width: 60vw;
+    margin-top: 150px;
+    position: relative;
+}
+.crs-count {
+    color: rgb(102, 160, 211);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+    position:  absolute;
+    top: 0;
+}
+.crs-count span{
+    display: inline-block;
+    padding-right: 5px;
+}
+.crs-count span:hover {
+    cursor: pointer;
+}
+.container {
+    transition: all 1s;
+    width: 100%;
+    display: flex;
+}
+.container img {
+    width: 100%;
+    display: block;
+}
+nav {
+    display: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: #eee;
+    align-items: center;
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-home {
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav-menu {
+    margin-left: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.img-detail {
+    width: 60vw;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 500px;
+    background-color: aliceblue;
+    color: #333;
+}
+.tab-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tab {
+    text-align: center;
+    width: 33%;
+    border: black 1px solid;
+    border-bottom: none;
+    padding-top: 5px;   
+    padding-bottom: 5px;   
+    letter-spacing: 1px;
+}
+.br-x {
+    border-right: none;
+}
+.tab-selected {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    border: 2px black solid;
+    box-shadow: 0 0 black 10px;}
+.tab:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: pointer;
+}
+.img-explanation {
+    border: black 1px solid;
+    border-top: none;
+    padding: 5px 10px;
+}
+.hidden {
+    display: none;
+}
