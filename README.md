@@ -1,6 +1,7 @@
 # Carousel (캐러셀)
 옛날 옛적에 JS 수업 다 듣고 만들어봤던 캐러셀입니다. 
-DOM을 조작하는 연습을 주로 했고, 
+
+DOM을 조작하는 연습과 기능구현이 주목적이었습니다.
 
 ![캐러셀](https://github.com/KimPra2989/carousel/assets/106394183/7d5dac29-32bf-4794-955d-1af4d9b5cfaf)
 
